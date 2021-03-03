@@ -8,15 +8,20 @@ namespace Projet_Calculatrice
     {
         public calc()
         {
-            int add(int a, int b)
-            {
-                return a + b;
-            }
+        }
 
-            int moins(int a, int b)
-            {
-                return a - b;
-            }
+        public int add(int a, int b)
+        {
+            return a + b;
+        }
+
+        public int moins(int a, int b)
+        {
+            return a - b;
+        }
+        public int fois(int a, int b)
+        {
+            return a * b;
         }
     }
 }
