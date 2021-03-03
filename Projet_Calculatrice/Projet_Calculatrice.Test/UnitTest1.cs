@@ -21,7 +21,7 @@ namespace Projet_Calculatrice.Test
         }
 
         [Test]
-        public void TestMoins()
+        public void TestMoins() 
         {
             int a = 22;
             int b = 11;
