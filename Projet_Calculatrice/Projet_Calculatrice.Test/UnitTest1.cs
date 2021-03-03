@@ -59,5 +59,23 @@ namespace Projet_Calculatrice.Test
             int result = calc.modulo(a, b);
             Assert.AreEqual(0, result);
         }
+
+        [Test]
+        public void TestPaire()
+        {
+            int a = 22;
+            calc calc = new calc();
+            bool result = calc.paireImpaire(a);
+            Assert.AreEqual(true, result);
+        }
+
+        [Test]
+        public void TestPremier()
+        {
+            int a = 19;
+            calc calc = new calc();
+            bool result = calc.Premier(a);
+            Assert.AreEqual(true, result);
+        }
     }
 }
