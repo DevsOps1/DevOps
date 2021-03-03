@@ -49,5 +49,15 @@ namespace Projet_Calculatrice.Test
             int result = calc.div(a, b);
             Assert.AreEqual(11, result);
         }
+
+        [Test]
+        public void Testmod()
+        {
+            int a = 22;
+            int b = 2;
+            calc calc = new calc();
+            int result = calc.modulo(a, b);
+            Assert.AreEqual(0, result);
+        }
     }
 }
