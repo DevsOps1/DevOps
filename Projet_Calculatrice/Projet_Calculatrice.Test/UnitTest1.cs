@@ -31,14 +31,23 @@ namespace Projet_Calculatrice.Test
         }
 
         [Test]
-        public void TestFois()
+        public void TestMulti()
         {
             int a = 2;
             int b = 11;
             calc calc = new calc();
-            int result = calc.fois(a, b);
+            int result = calc.Multi(a, b);
             Assert.AreEqual(22, result);
         }
 
+        [Test]
+        public void Testdiv()
+        {
+            int a = 22;
+            int b = 2;
+            calc calc = new calc();
+            int result = calc.div(a, b);
+            Assert.AreEqual(11, result);
+        }
     }
 }

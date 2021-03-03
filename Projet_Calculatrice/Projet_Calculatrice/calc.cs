@@ -19,9 +19,14 @@ namespace Projet_Calculatrice
         {
             return a - b;
         }
-        public int fois(int a, int b)
+        public int Multi(int a, int b)
         {
             return a * b;
         }
+        public int div(int a, int b)
+        {
+            return a / b;
+        }
+
     }
 }
